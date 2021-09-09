@@ -1,7 +1,7 @@
 
 # Data Science Portfolio
 
-Hello! I am Shi Min - thanks for visiting this page. You can find my data science projects below. I worked on these projects (some individual, some groupwork) while enrolled in a Full-Time Data Science Immersive Bootcamp from Jun - Sep 2021. During the course, I picked up key data science skills and experiences using the following libraries:
+Hello! I am Shi Min - thanks for visiting this page. You can find my data science projects below. I worked on these individual/ group projects while enrolled in a Full-Time Data Science Immersive Bootcamp from Jun - Sep 2021. During the course, I picked up key skills and experiences using the following libraries:
 
 - Data collection/ Web Scraping: `BeautifulSoup`, `APIs`
 - Data cleaning: `Pandas`, `NumPy` 
@@ -36,7 +36,7 @@ I chose to further train and tune the **1-gram count-vectorized logistic regress
 
 Confusion Matrix           |  AUC ROC
 :-------------------------:|:-------------------------:
-<img src="./images/cm.png" alt="drawing" width="500"/> |  <img src="./images/rocauc.png" alt="drawing" width="500"/>
+<img src="./05-Predicting-Stock-Price-Changes-with-News-Headlines/images/cm.png" alt="drawing" width="500"/> |  <img src="./05-Predicting-Stock-Price-Changes-with-News-Headlines/images/rocauc.png" alt="drawing" width="500"/>
 
 The model had an accuracy score of 0.77, a ROC AUC score of 0.642 and a 0.75 precision score. While the precision score was high, it was obtained at the expense of a lower recall score of 0.12. This means the model will be relatively good at predicting when a 'price-shocking' news headline. However, it is prone to classify many other news headlines which are price shockers as non-price shockers. This may lead to traders missing out on news events that would affect the stock prices significantly. 
 
@@ -44,12 +44,12 @@ Taking a closer look at the feature importances, I cannot find any discernable t
 
 |Phrases associated with Price Jumps     |     
 |:-------------------------:|
-<img src="./images/price_jump.png" alt="drawing" width="700"/> |  
+<img src="./05-Predicting-Stock-Price-Changes-with-News-Headlines/images/price_jump.png" alt="drawing" width="700"/> |  
 
 
 |Phrases not associated with Price Jumps |
 |:-------------------------:|
-<img src="./images/price_constant.png" alt="drawing" width="700"/>|
+<img src="./05-Predicting-Stock-Price-Changes-with-News-Headlines/images/price_constant.png" alt="drawing" width="700"/>|
 
 #### Conclusion
 
@@ -70,7 +70,7 @@ Taking a closer look at the feature importances, I cannot find any discernable t
 - [Annex - Further Scraping & Cleaning](./05-Predicting-Stock-Price-Changes-with-News-Headlines/codes/Annex_Webscraping_and_Cleaning_Headlines.ipynb)
    
 ## Links to other projects: 
-- [01 SAT Participation Rates](./01-SAT-Participation-Rates/README.md)
-- [02 Ames Housing Project](./02-Ames-Housing-Project/README.md)
+- [01 SAT Participation Rates](./01-SAT-Participation-Rates-EDA/README.md)
+- [02 Ames Housing Project](./02-Ames-Housing-Price-Prediction/README.md)
 - [03 Classification of Reddit Posts](./03-Classification-of-Reddit-Posts/README.md)
 - [04 West Nile Virus Prediction](./04-West-Nile-Virus-Prediction/README.md)
